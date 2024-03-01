@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="searchLocation">Location</label>
+    <input type="text" id="searchLocation" />
+    <button id="submit">Search</button>
+
+    <div id="weather">
+      <div id="areaStats">
+        <div id="locationCountry"></div>
+        <div id="localtime"></div>
+        <div id="localName"></div>
+        <div id="localRegion"></div>
+      </div>
+      <div id="weatherStats">
+        <div id="condition"></div>
+        <div id="humidity"></div>
+        <div id="temp"></div>
+        <div id="feelslike"></div>
+        <div id="updated"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
